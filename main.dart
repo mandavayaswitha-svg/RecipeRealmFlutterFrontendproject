@@ -3,9 +3,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-// ---------------------------
-// Models
-// ---------------------------
+
 class Recipe {
   final String id;
   final String name;
