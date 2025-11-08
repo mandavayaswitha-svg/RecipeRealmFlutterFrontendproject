@@ -1,8 +1,3 @@
-// lib/main.dart
-// RecipeRealm - single file (frontend-only, Provider)
-// Requires: provider
-// flutter pub add provider
-// flutter run
 
 import 'dart:async';
 import 'package:flutter/material.dart';
@@ -30,7 +25,7 @@ class Recipe {
 }
 
 // ---------------------------
-// App State (Provider) - ingredient based filtering (OR matching)
+// App State (Provider) - ingredient based filtering 
 // ---------------------------
 class AppState extends ChangeNotifier {
   final List<Recipe> _allRecipes = [
@@ -163,7 +158,7 @@ class AppState extends ChangeNotifier {
       ],
     ),
 
-    // Sandwich (user provided image)
+    // Sandwich 
     Recipe(
       id: 'sandwich',
       name: 'Sandwich',
@@ -189,7 +184,7 @@ class AppState extends ChangeNotifier {
       ],
     ),
 
-    // Oreo Milkshake (user provided image)
+    // Oreo Milkshake 
     Recipe(
       id: 'oreo_milkshake',
       name: 'Oreo Milkshake',
@@ -717,7 +712,7 @@ class FavoritesScreen extends StatelessWidget {
 }
 
 // ---------------------------
-// Profile Screen - enhanced
+// Profile Screen
 // ---------------------------
 class ProfileScreen extends StatefulWidget {
   const ProfileScreen({Key? key}) : super(key: key);
